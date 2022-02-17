@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645058573501' stop='1645058573601'>
+    <name>Webdriver.io</name>
+    <title>Webdriver.io</title>
+    <test-cases>
+        <test-case start='1645058573502' status='failed' stop='1645058573600'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645058573504' status='failed' stop='1645058573600'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1645058573507' status='passed' stop='1645058573588'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='5426ea83-edf1-4668-8ffd-d9877d685290-attachment.png' type='image/png' size='3433'/>
+                            </attachments>
+                            <steps>
+                                <step start='1645058573509' status='passed' stop='1645058573522'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='b9b745f5-ee6c-4cfd-9ecf-98827eadbd53-attachment.json' type='application/json' size='36'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expected values to be strictly equal:
+                + actual - expected
+                
+                + Promise {
+                +   &lt;pending>
+                + }
+                - 'WebdriverIO - Next-gen browser and mobile automation test framework for Node.js'      
+                      actual expected
+                      
+                      Promise'WebdriverIO [Promise]- {}Next-gen browser and mobile automation test framework for Node.js'
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+                + actual - expected
+                
+                + Promise {
+                +   &lt;pending>
+                + }
+                - 'WebdriverIO - Next-gen browser and mobile automation test framework for Node.js'
+                    at Context.&lt;anonymous> (C:\Users\Dev\Desktop\webdriver.io course\wdio-sample\test\specs\example-wdio.js:10:12)
+                    at Context.executeAsync (C:\Users\Dev\Desktop\webdriver.io course\wdio-sample\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Dev\Desktop\webdriver.io course\wdio-sample\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

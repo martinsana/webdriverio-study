@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645058712245' stop='1645058712338'>
+    <name>Webdriver.io</name>
+    <title>Webdriver.io</title>
+    <test-cases>
+        <test-case start='1645058712245' status='passed' stop='1645058712247'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1645058712247' status='broken' stop='1645058712336'>
+            <name>should have a link to api page</name>
+            <title>should have a link to api page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645058712250' status='broken' stop='1645058712336'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1645058712253' status='passed' stop='1645058712334'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='a83fabb0-a272-42af-8c6f-e14ddd78543a-attachment.json' type='application/json' size='36'/>
+                                <attachment title='Screenshot' source='038e73e0-8a09-4103-8729-3c6f4be1ab0a-attachment.png' type='image/png' size='3433'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.isExisting is not a function</message>
+                <stack-trace>TypeError: browser.isExisting is not a function
+                    at Context.&lt;anonymous> (C:\Users\Dev\Desktop\webdriver.io course\wdio-sample\test\specs\example-wdio.js:11:13)
+                    at Context.executeAsync (C:\Users\Dev\Desktop\webdriver.io course\wdio-sample\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Dev\Desktop\webdriver.io course\wdio-sample\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

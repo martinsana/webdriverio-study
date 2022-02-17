@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645063606493' stop='1645063608952'>
+    <name>Dynamic Loading Page</name>
+    <title>Dynamic Loading Page</title>
+    <test-cases>
+        <test-case start='1645063606494' status='broken' stop='1645063608949'>
+            <name>should wait the hidden element to show</name>
+            <title>should wait the hidden element to show</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645063606503' status='passed' stop='1645063606552'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='41c1f06a-992c-4d12-b1f1-10f77c6e749f-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='6bcbfa20-a9e3-4f88-9ee0-51b99556c51d-attachment.json' type='application/json' size='1012'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645063606574' status='passed' stop='1645063608546'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d76b6903-c6a0-4eee-b9c0-02f5d469f9b7-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645063608551' status='passed' stop='1645063608587'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9630c190-e47e-4648-accd-074c0c9db707-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='eef414b6-4262-4aec-824a-041411465122-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645063608598' status='passed' stop='1645063608632'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fe9f3162-02e1-4da5-b47d-71371f98d0aa-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='1eb0b310-329a-443a-8a3f-28ecfb6fc53d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645063608639' status='passed' stop='1645063608712'>
+                    <name>POST /session/:sessionId/element/d7f5d17c-5ea3-44f4-8ca9-bb5594fb9534/click</name>
+                    <title>POST /session/:sessionId/element/d7f5d17c-5ea3-44f4-8ca9-bb5594fb9534/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645063608714' status='passed' stop='1645063608946'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='025bc5c4-42ca-4fdf-a8fa-bc2d431606ed-attachment.png' type='image/png' size='28065'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>textFinish is not defined</message>
+                <stack-trace>ReferenceError: textFinish is not defined
+                    at Context.&lt;anonymous> (C:\Users\Dev\Desktop\webdriver.io course\wdio-sample\test\specs\dynamic-loading.e2e.js:9:5)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645062200973' stop='1645062203640'>
+    <name>Dynamic Loading Page</name>
+    <title>Dynamic Loading Page</title>
+    <test-cases>
+        <test-case start='1645062200973' status='failed' stop='1645062203638'>
+            <name>should wait the hidden element to show</name>
+            <title>should wait the hidden element to show</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645062200981' status='passed' stop='1645062203233'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3ba609f7-0c5c-442f-9128-1b77b994f094-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1645062200992' status='passed' stop='1645062201083'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='efb94f5f-fc68-4e58-83ae-a4e2ab1d9017-attachment.json' type='application/json' size='54'/>
+                                <attachment title='Response' source='dc34594d-722e-4d24-94ec-91fd28392a97-attachment.json' type='application/json' size='1009'/>
+                            </attachments>
+                            <steps>
+                                <step start='1645062201004' status='passed' stop='1645062201050'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='cbed14d7-ba3e-4dd2-abf9-37fee840808e-attachment.json' type='application/json' size='67'/>
+                                        <attachment title='Response' source='02e2abed-7ecd-44c3-a1cf-339b6495f79d-attachment.json' type='application/json' size='1005'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1645062203237' status='passed' stop='1645062203282'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='54240e0b-0cf1-4358-97eb-f5852ac77544-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='156fa62d-a9a4-4433-83a8-690c54d021d5-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645062203290' status='passed' stop='1645062203339'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2361362f-01ac-4b76-bc95-38014aacfb5c-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='8b391469-8e70-40b2-9ca2-98bfa9cb6d2b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645062203348' status='passed' stop='1645062203434'>
+                    <name>POST /session/:sessionId/element/1689630d-9108-4f39-90d8-114da518ea1a/click</name>
+                    <title>POST /session/:sessionId/element/1689630d-9108-4f39-90d8-114da518ea1a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645062203443' status='passed' stop='1645062203635'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a83f9b61-685e-41f6-894c-f1203b0e667f-attachment.png' type='image/png' size='28069'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Unexpected return from a matcher function.
+                Matcher functions should return an object in the following format:
+                  {message?: string | function, pass: boolean}
+                '{"actual": {}, "expected": "Hello World!", "message": [Function anonymous], "name": "toEqual", "pass": {}}' was returned</message>
+                <stack-trace>Error: Unexpected return from a matcher function.
+                Matcher functions should return an object in the following format:
+                  {message?: string | function, pass: boolean}
+                '{"actual": {}, "expected": "Hello World!", "message": [Function anonymous], "name": "toEqual", "pass": {}}' was returned
+                    at Context.&lt;anonymous> (C:\Users\Dev\Desktop\webdriver.io course\wdio-sample\test\specs\dynamic-loading.e2e.js:8:30)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
