@@ -1,0 +1,212 @@
+{
+  "uid" : "8a6a7fada13f19da",
+  "name" : "should wait the hidden element to show",
+  "fullName" : "Dynamic Loading Page.should wait the hidden element to show",
+  "historyId" : "d1f947f862859b92efa30cdcebc51b1c",
+  "time" : {
+    "start" : 1645063606494,
+    "stop" : 1645063608949,
+    "duration" : 2455
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "textFinish is not defined",
+  "statusTrace" : "ReferenceError: textFinish is not defined\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\dynamic-loading.e2e.js:9:5)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "textFinish is not defined",
+    "statusTrace" : "ReferenceError: textFinish is not defined\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\dynamic-loading.e2e.js:9:5)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645063606503,
+        "stop" : 1645063606552,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0e5ef20f4fb3537",
+        "name" : "Request",
+        "source" : "e0e5ef20f4fb3537.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "1046951d429e138b",
+        "name" : "Response",
+        "source" : "1046951d429e138b.json",
+        "type" : "application/json",
+        "size" : 1012
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1645063606574,
+        "stop" : 1645063608546,
+        "duration" : 1972
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "89089c9155195305",
+        "name" : "Request",
+        "source" : "89089c9155195305.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1645063608551,
+        "stop" : 1645063608587,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d30e21e1d1f1f12e",
+        "name" : "Request",
+        "source" : "d30e21e1d1f1f12e.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "f9fdd3447a86bdae",
+        "name" : "Response",
+        "source" : "f9fdd3447a86bdae.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645063608598,
+        "stop" : 1645063608632,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30eadc91edb066cc",
+        "name" : "Request",
+        "source" : "30eadc91edb066cc.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "9ced18b9d6f14763",
+        "name" : "Response",
+        "source" : "9ced18b9d6f14763.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d7f5d17c-5ea3-44f4-8ca9-bb5594fb9534/click",
+      "time" : {
+        "start" : 1645063608639,
+        "stop" : 1645063608712,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1645063608714,
+        "stop" : 1645063608946,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c582e69e418657e6",
+        "name" : "Screenshot",
+        "source" : "c582e69e418657e6.png",
+        "type" : "image/png",
+        "size" : 28065
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should wait the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a6a7fada13f19da.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

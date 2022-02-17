@@ -1,0 +1,261 @@
+{
+  "uid" : "4a6fe94d501a1c3b",
+  "name" : "should wait the hidden element to show",
+  "fullName" : "Dynamic Loading Page.should wait the hidden element to show",
+  "historyId" : "d1f947f862859b92efa30cdcebc51b1c",
+  "time" : {
+    "start" : 1645062450223,
+    "stop" : 1645062457564,
+    "duration" : 7341
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\dynamic-loading.e2e.js:9:40)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\dynamic-loading.e2e.js:9:40)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645062450227,
+        "stop" : 1645062452186,
+        "duration" : 1959
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1645062450234,
+          "stop" : 1645062450280,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1645062450240,
+            "stop" : 1645062450263,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "cc2a2e53b584fd9e",
+            "name" : "Request",
+            "source" : "cc2a2e53b584fd9e.json",
+            "type" : "application/json",
+            "size" : 67
+          }, {
+            "uid" : "1bf7d132a4b6bb5b",
+            "name" : "Response",
+            "source" : "1bf7d132a4b6bb5b.json",
+            "type" : "application/json",
+            "size" : 1012
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "91e272a44b18e53a",
+          "name" : "Request",
+          "source" : "91e272a44b18e53a.json",
+          "type" : "application/json",
+          "size" : 54
+        }, {
+          "uid" : "d9ffe75b0fd1e1a6",
+          "name" : "Response",
+          "source" : "d9ffe75b0fd1e1a6.json",
+          "type" : "application/json",
+          "size" : 1009
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "12d0594ae5807402",
+        "name" : "Request",
+        "source" : "12d0594ae5807402.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1645062452188,
+        "stop" : 1645062452208,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4e4d3fc5458488a",
+        "name" : "Request",
+        "source" : "a4e4d3fc5458488a.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "6b7e47ab13c442b9",
+        "name" : "Response",
+        "source" : "6b7e47ab13c442b9.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645062452212,
+        "stop" : 1645062452228,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e15629c746a2a12d",
+        "name" : "Request",
+        "source" : "e15629c746a2a12d.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "1177b14798e7ecf1",
+        "name" : "Response",
+        "source" : "1177b14798e7ecf1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/230d1dca-074f-4bed-aa60-94f73a40c513/click",
+      "time" : {
+        "start" : 1645062452232,
+        "stop" : 1645062452275,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1645062457294,
+        "stop" : 1645062457564,
+        "duration" : 270
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\dynamic-loading.e2e.js:9:40)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1645062457299,
+          "stop" : 1645062457562,
+          "duration" : 263
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "df28e47af231db12",
+          "name" : "Request",
+          "source" : "df28e47af231db12.json",
+          "type" : "application/json",
+          "size" : 54
+        }, {
+          "uid" : "3f08b8177240a2bb",
+          "name" : "Screenshot",
+          "source" : "3f08b8177240a2bb.png",
+          "type" : "image/png",
+          "size" : 29675
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should wait the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a6fe94d501a1c3b.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

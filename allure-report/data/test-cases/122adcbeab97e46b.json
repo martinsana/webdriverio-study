@@ -1,0 +1,137 @@
+{
+  "uid" : "122adcbeab97e46b",
+  "name" : "should have the right title",
+  "fullName" : "Webdriver.io.should have the right title",
+  "historyId" : "13e38984d0af8aff65688a1ab8d4b68f",
+  "time" : {
+    "start" : 1645058192637,
+    "stop" : 1645058194517,
+    "duration" : 1880
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Webdriver.io'      \n                      actual expected\n                      \n                      Promise [Promise] {}'Webdriver.io'\n                      ",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Webdriver.io'\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\example-wdio.js:10:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Webdriver.io'      \n                      actual expected\n                      \n                      Promise [Promise] {}'Webdriver.io'\n                      ",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Webdriver.io'\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\example-wdio.js:10:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1645058192639,
+        "stop" : 1645058194334,
+        "duration" : 1695
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd1313672dfa4718",
+        "name" : "Request",
+        "source" : "fd1313672dfa4718.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1645058194336,
+        "stop" : 1645058194510,
+        "duration" : 174
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1645058194337,
+          "stop" : 1645058194353,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3d756870823d5e6f",
+          "name" : "Response",
+          "source" : "3d756870823d5e6f.json",
+          "type" : "application/json",
+          "size" : 96
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e615074d37e39c72",
+        "name" : "Screenshot",
+        "source" : "e615074d37e39c72.png",
+        "type" : "image/png",
+        "size" : 52908
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "testClass",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have the right title"
+  }, {
+    "name" : "package",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "122adcbeab97e46b.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

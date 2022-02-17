@@ -1,0 +1,95 @@
+{
+  "uid" : "451a86062d611f12",
+  "name" : "Verify list itens",
+  "fullName" : "Main Page.Verify list itens",
+  "historyId" : "5896ca71f4d7495d9e8c7902149ddde5",
+  "time" : {
+    "start" : 1645061674587,
+    "stop" : 1645061674715,
+    "duration" : 128
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Browser is not defined",
+  "statusTrace" : "ReferenceError: Browser is not defined\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\main.e2e.js:3:5)\n                    at Context.executeAsync (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Browser is not defined",
+    "statusTrace" : "ReferenceError: Browser is not defined\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\main.e2e.js:3:5)\n                    at Context.executeAsync (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1645061674589,
+        "stop" : 1645061674712,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "291584ae00ddce5a",
+        "name" : "Screenshot",
+        "source" : "291584ae00ddce5a.png",
+        "type" : "image/png",
+        "size" : 3433
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify list itens"
+  }, {
+    "name" : "package",
+    "value" : "Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "451a86062d611f12.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

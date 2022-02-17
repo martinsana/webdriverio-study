@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Feb 16 21:54:55 BRT 2022","Wed Feb 16 21:54:55 BRT 2022","2","","Webdriver.io","","Webdriver.io","should have the right title","should have the right title",""
+"passed","Wed Feb 16 23:12:51 BRT 2022","Wed Feb 16 23:12:52 BRT 2022","763","","My Login application","","My Login application","should logout and verify logout alert message","should logout and verify logout alert message",""
+"failed","Wed Feb 16 23:12:47 BRT 2022","Wed Feb 16 23:12:58 BRT 2022","10780","","Dynamic Loading Page","","Dynamic Loading Page","should wait the hidden element to show","should wait the hidden element to show",""
+"passed","Wed Feb 16 23:12:47 BRT 2022","Wed Feb 16 23:12:52 BRT 2022","4265","","Main Page","","Main Page","Verify list itens","Verify list itens",""
+"passed","Wed Feb 16 23:12:47 BRT 2022","Wed Feb 16 23:12:51 BRT 2022","4244","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"broken","Wed Feb 16 22:09:26 BRT 2022","Wed Feb 16 22:09:38 BRT 2022","12325","","Webdriver.io","","Webdriver.io","should have a link to api page","should have a link to api page",""

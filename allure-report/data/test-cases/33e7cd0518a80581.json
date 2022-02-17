@@ -1,0 +1,187 @@
+{
+  "uid" : "33e7cd0518a80581",
+  "name" : "should wait the hidden element to show",
+  "fullName" : "Dynamic Loading Page.should wait the hidden element to show",
+  "historyId" : "d1f947f862859b92efa30cdcebc51b1c",
+  "time" : {
+    "start" : 1645063571976,
+    "stop" : 1645063574226,
+    "duration" : 2250
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645063571985,
+        "stop" : 1645063572036,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef6130d651c0f356",
+        "name" : "Request",
+        "source" : "ef6130d651c0f356.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "cbadfb9c66ca6927",
+        "name" : "Response",
+        "source" : "cbadfb9c66ca6927.json",
+        "type" : "application/json",
+        "size" : 1012
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1645063572057,
+        "stop" : 1645063574047,
+        "duration" : 1990
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8cf4720715f206cc",
+        "name" : "Request",
+        "source" : "8cf4720715f206cc.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1645063574051,
+        "stop" : 1645063574083,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91a78309b2e1d6ef",
+        "name" : "Request",
+        "source" : "91a78309b2e1d6ef.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "a35d5612325bb537",
+        "name" : "Response",
+        "source" : "a35d5612325bb537.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645063574095,
+        "stop" : 1645063574130,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5951c33b0c8001c",
+        "name" : "Request",
+        "source" : "f5951c33b0c8001c.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "4f93032601ec3c8d",
+        "name" : "Response",
+        "source" : "4f93032601ec3c8d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/7dea7807-2856-4b8c-b321-515a2d1c3c59/click",
+      "time" : {
+        "start" : 1645063574139,
+        "stop" : 1645063574224,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should wait the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33e7cd0518a80581.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

@@ -1,0 +1,117 @@
+{
+  "uid" : "8748bc661e6f20bd",
+  "name" : "should have a link to api page",
+  "fullName" : "Webdriver.io.should have a link to api page",
+  "historyId" : "ea7e557b548c81a5db2c5e303d38f320",
+  "time" : {
+    "start" : 1645058756890,
+    "stop" : 1645058756984,
+    "duration" : 94
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.isExisting is not a function",
+  "statusTrace" : "TypeError: browser.isExisting is not a function\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\example-wdio.js:11:13)\n                    at Context.executeAsync (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "browser.isExisting is not a function",
+    "statusTrace" : "TypeError: browser.isExisting is not a function\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\example-wdio.js:11:13)\n                    at Context.executeAsync (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1645058756891,
+        "stop" : 1645058756983,
+        "duration" : 92
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: browser.isExisting is not a function\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\example-wdio.js:11:13)\n                    at Context.executeAsync (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1645058756894,
+          "stop" : 1645058756982,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f2edb3ec8a7b11ed",
+          "name" : "Request",
+          "source" : "f2edb3ec8a7b11ed.json",
+          "type" : "application/json",
+          "size" : 36
+        }, {
+          "uid" : "40b07c615f358b80",
+          "name" : "Screenshot",
+          "source" : "40b07c615f358b80.png",
+          "type" : "image/png",
+          "size" : 3433
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "testClass",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a link to api page"
+  }, {
+    "name" : "package",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8748bc661e6f20bd.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

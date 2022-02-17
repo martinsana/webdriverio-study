@@ -1,0 +1,61 @@
+[ {
+  "uid" : "e4736d82e75c3d53",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1645059295800,
+    "stop" : 1645059295802,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b57ecbfea7b4638c",
+  "name" : "should logout and verify logout alert message",
+  "time" : {
+    "start" : 1645063971855,
+    "stop" : 1645063972618,
+    "duration" : 763
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e8eb545a1d3b2c7",
+  "name" : "should wait the hidden element to show",
+  "time" : {
+    "start" : 1645063967583,
+    "stop" : 1645063978363,
+    "duration" : 10780
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3aeb20a28d13e5d",
+  "name" : "Verify list itens",
+  "time" : {
+    "start" : 1645063967754,
+    "stop" : 1645063972019,
+    "duration" : 4265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "762f4e26be9258da",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1645063967610,
+    "stop" : 1645063971854,
+    "duration" : 4244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae241a7bccebdeae",
+  "name" : "should have a link to api page",
+  "time" : {
+    "start" : 1645060166370,
+    "stop" : 1645060178695,
+    "duration" : 12325
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,137 @@
+{
+  "uid" : "946645495b55320",
+  "name" : "should have the right title",
+  "fullName" : "Webdriver.io.should have the right title",
+  "historyId" : "13e38984d0af8aff65688a1ab8d4b68f",
+  "time" : {
+    "start" : 1645058232831,
+    "stop" : 1645058234741,
+    "duration" : 1910
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO'      \n                      actual expected\n                      \n                      Promise'WebdriverIO [Promise]· {}Next-gen browser and mobile automation test framework for Node.js | WebdriverIO'\n                      ",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO'\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\example-wdio.js:10:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO'      \n                      actual expected\n                      \n                      Promise'WebdriverIO [Promise]· {}Next-gen browser and mobile automation test framework for Node.js | WebdriverIO'\n                      ",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO'\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\example-wdio.js:10:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1645058232833,
+        "stop" : 1645058234547,
+        "duration" : 1714
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b1d4476bd735419",
+        "name" : "Request",
+        "source" : "9b1d4476bd735419.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1645058234549,
+        "stop" : 1645058234733,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1645058234552,
+          "stop" : 1645058234563,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e6d909d8728675d2",
+          "name" : "Response",
+          "source" : "e6d909d8728675d2.json",
+          "type" : "application/json",
+          "size" : 96
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a01365d79d2d5066",
+        "name" : "Screenshot",
+        "source" : "a01365d79d2d5066.png",
+        "type" : "image/png",
+        "size" : 52573
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "testClass",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have the right title"
+  }, {
+    "name" : "package",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "946645495b55320.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

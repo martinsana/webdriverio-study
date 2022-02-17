@@ -1,0 +1,261 @@
+{
+  "uid" : "82f2f92c68e535ec",
+  "name" : "should wait the hidden element to show",
+  "fullName" : "Dynamic Loading Page.should wait the hidden element to show",
+  "historyId" : "d1f947f862859b92efa30cdcebc51b1c",
+  "time" : {
+    "start" : 1645062290370,
+    "stop" : 1645062292599,
+    "duration" : 2229
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\dynamic-loading.e2e.js:8:40)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\dynamic-loading.e2e.js:8:40)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645062290376,
+        "stop" : 1645062292385,
+        "duration" : 2009
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1645062290389,
+          "stop" : 1645062290495,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1645062290401,
+            "stop" : 1645062290451,
+            "duration" : 50
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4eed32d2c62c9e39",
+            "name" : "Request",
+            "source" : "4eed32d2c62c9e39.json",
+            "type" : "application/json",
+            "size" : 67
+          }, {
+            "uid" : "190800c8722a06e8",
+            "name" : "Response",
+            "source" : "190800c8722a06e8.json",
+            "type" : "application/json",
+            "size" : 1005
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "166c9e77a0cca03b",
+          "name" : "Request",
+          "source" : "166c9e77a0cca03b.json",
+          "type" : "application/json",
+          "size" : 54
+        }, {
+          "uid" : "7f9570eb63b56de2",
+          "name" : "Response",
+          "source" : "7f9570eb63b56de2.json",
+          "type" : "application/json",
+          "size" : 1009
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "deb495f13bca0ef5",
+        "name" : "Request",
+        "source" : "deb495f13bca0ef5.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1645062292387,
+        "stop" : 1645062292407,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3eb9dc3b8742763a",
+        "name" : "Request",
+        "source" : "3eb9dc3b8742763a.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "5b650324bcb22d9e",
+        "name" : "Response",
+        "source" : "5b650324bcb22d9e.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645062292413,
+        "stop" : 1645062292434,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "50a9a5cd7dd55101",
+        "name" : "Request",
+        "source" : "50a9a5cd7dd55101.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "4b32a1761da47c4c",
+        "name" : "Response",
+        "source" : "4b32a1761da47c4c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0f7a12b7-8071-4124-821c-0bc4f4d19c53/click",
+      "time" : {
+        "start" : 1645062292437,
+        "stop" : 1645062292480,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1645062292485,
+        "stop" : 1645062292599,
+        "duration" : 114
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\Dev\\Desktop\\webdriver.io course\\wdio-sample\\test\\specs\\dynamic-loading.e2e.js:8:40)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1645062292487,
+          "stop" : 1645062292597,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "219add328aea0688",
+          "name" : "Request",
+          "source" : "219add328aea0688.json",
+          "type" : "application/json",
+          "size" : 54
+        }, {
+          "uid" : "a0a1db6d4083b637",
+          "name" : "Screenshot",
+          "source" : "a0a1db6d4083b637.png",
+          "type" : "image/png",
+          "size" : 28069
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should wait the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82f2f92c68e535ec.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

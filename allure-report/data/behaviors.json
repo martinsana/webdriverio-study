@@ -1,0 +1,107 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "should have the right title",
+    "uid" : "e4736d82e75c3d53",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645059295800,
+      "stop" : 1645059295802,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 10,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-98.0.4758.102" ]
+  }, {
+    "name" : "should have a link to api page",
+    "uid" : "ae241a7bccebdeae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1645060166370,
+      "stop" : 1645060178695,
+      "duration" : 12325
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-98.0.4758.102" ]
+  }, {
+    "name" : "should wait the hidden element to show",
+    "uid" : "8e8eb545a1d3b2c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1645063967583,
+      "stop" : 1645063978363,
+      "duration" : 10780
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 20,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-98.0.4758.102" ]
+  }, {
+    "name" : "should login with valid credentials",
+    "uid" : "762f4e26be9258da",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645063967610,
+      "stop" : 1645063971854,
+      "duration" : 4244
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 6,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.102" ]
+  }, {
+    "name" : "Verify list itens",
+    "uid" : "f3aeb20a28d13e5d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645063967754,
+      "stop" : 1645063972019,
+      "duration" : 4265
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-98.0.4758.102" ]
+  }, {
+    "name" : "should logout and verify logout alert message",
+    "uid" : "b57ecbfea7b4638c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645063971855,
+      "stop" : 1645063972618,
+      "duration" : 763
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.102" ]
+  } ]
+}

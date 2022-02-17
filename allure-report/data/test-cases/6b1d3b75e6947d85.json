@@ -1,0 +1,60 @@
+{
+  "uid" : "6b1d3b75e6947d85",
+  "name" : "should have the right title",
+  "fullName" : "Webdriver.io.should have the right title",
+  "historyId" : "13e38984d0af8aff65688a1ab8d4b68f",
+  "time" : {
+    "start" : 1645059256919,
+    "stop" : 1645059256921,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "testClass",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have the right title"
+  }, {
+    "name" : "package",
+    "value" : "Webdriver.io"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b1d3b75e6947d85.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

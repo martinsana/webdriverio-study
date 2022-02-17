@@ -1,0 +1,118 @@
+{
+  "3b494d47a0f895932c6a1a67a23e88e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "762f4e26be9258da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645063967610,
+        "stop" : 1645063971854,
+        "duration" : 4244
+      }
+    } ]
+  },
+  "ef1cdeb37b4c5d2f59316f0e7c3947b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b57ecbfea7b4638c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645063971855,
+        "stop" : 1645063972618,
+        "duration" : 763
+      }
+    } ]
+  },
+  "5896ca71f4d7495d9e8c7902149ddde5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3aeb20a28d13e5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645063967754,
+        "stop" : 1645063972019,
+        "duration" : 4265
+      }
+    } ]
+  },
+  "d1f947f862859b92efa30cdcebc51b1c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e8eb545a1d3b2c7",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1645063967583,
+        "stop" : 1645063978363,
+        "duration" : 10780
+      }
+    } ]
+  },
+  "ea7e557b548c81a5db2c5e303d38f320" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae241a7bccebdeae",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"=API\" because element wasn't found",
+      "time" : {
+        "start" : 1645060166370,
+        "stop" : 1645060178695,
+        "duration" : 12325
+      }
+    } ]
+  },
+  "13e38984d0af8aff65688a1ab8d4b68f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e4736d82e75c3d53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645059295800,
+        "stop" : 1645059295802,
+        "duration" : 2
+      }
+    } ]
+  }
+}
